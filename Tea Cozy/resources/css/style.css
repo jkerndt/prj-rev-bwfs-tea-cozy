@@ -1,0 +1,161 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  display: block;
+  width: 100%
+}
+div {
+  display: block;
+}
+header nav {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  display: block;
+  justify-content: flex-end;
+  padding-right: 10px;
+  z-index: 10;
+}
+nav span {
+  padding: 5px;
+  display: inline-block;
+  justify-content: flex-end;
+  text-decoration: underline;
+  align-items: center;
+}
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  justify-content: space-between;
+  margin-top: -8px;
+}
+.content {
+  display: block;
+  padding-top: 70px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: block;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.main.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .img-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.options {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.options img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.fall-berry {
+  margin-left: 440px;
+}
+.donuts {
+  margin-right: 300px;
+}
+.myrtle {
+  margin-left: 615px;
+}
+.bedford {
+  margin-right: 575px;
+}
+.locations .img-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.locations {
+  display: flex;
+  justify-content: center;
+}
+.addresses {
+  display: inline-block;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.address {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin: 40px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+.info {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.info {
+  display: block;
+  justify-content: center;
+}
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
+.img-content h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+}
+.locations h2 {
+  display: flex;
+  justify-content: center;
+}
